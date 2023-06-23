@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "983590018492",
+    "project_id": "proyecto-primera-pagina",
+    "storage_bucket": "proyecto-primera-pagina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983590018492:android:63331f032e842cfb019fb9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_prueba_inicial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983590018492-er3doliqd5kaf3u2v0tgm2ma7dd2tuqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq4LLSF9FlvZiaX86ssCEGbh01g4GiPL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983590018492-er3doliqd5kaf3u2v0tgm2ma7dd2tuqr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "983590018492-5lq39ud5jr6pm6cmpgc9ui6pj803qj1l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mercadofresco.mercadoFresco"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983590018492:android:e73d94d5cd41693c019fb9",
+        "android_client_info": {
+          "package_name": "com.mercadofresco.mercado_fresco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983590018492-er3doliqd5kaf3u2v0tgm2ma7dd2tuqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq4LLSF9FlvZiaX86ssCEGbh01g4GiPL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983590018492-er3doliqd5kaf3u2v0tgm2ma7dd2tuqr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "983590018492-5lq39ud5jr6pm6cmpgc9ui6pj803qj1l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mercadofresco.mercadoFresco"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
