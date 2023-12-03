@@ -5,12 +5,12 @@ import '../services/firebase_service.dart';
 import '../widgets/product_grid.dart';
 import '../widgets/selected_product_count_widget.dart';
 
-class ProductSelectionPage extends StatefulWidget {
+class FruitsSelectionPage extends StatefulWidget {
   @override
-  _ProductSelectionPageState createState() => _ProductSelectionPageState();
+  _FruitsSelectionPageState createState() => _FruitsSelectionPageState();
 }
 
-class _ProductSelectionPageState extends State<ProductSelectionPage> {
+class _FruitsSelectionPageState extends State<FruitsSelectionPage> {
   final List<Product> selectedProducts = []; // Lista de productos seleccionados
   final Map<Product, int> selectedProductQuantities = {}; // Mapa que almacena los productos seleccionados junto con su cantidad
   final FirebaseService firebaseService = FirebaseService(); // Servicio de Firebase
@@ -26,7 +26,12 @@ class _ProductSelectionPageState extends State<ProductSelectionPage> {
   // Método que prueba la conexión con Firebase Firestore y carga los datos iniciales
   Future<void> testConnection() async {
     try {
-      final collectionRef = FirebaseFirestore.instance.collection('producto'); // Referencia a la colección "producto" en Firestore
+      final collectionRef = FirebaseFirestore.instance.collection('frutas'); // Referencia a la colección "producto" en Firestore
+      if (category == 'Verduras') {
+        final collectionRef = FirebaseFirestore.instance.collection('verduras');
+        // Resto del código para la categoría "Verduras"
+      }
+
       final collectionSnapshot = await collectionRef.get(); // Obtiene un snapshot de los documentos en la colección
 
       if (collectionSnapshot.size > 0) { // Si hay documentos en la colección

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mercado_fresco/screens/selection_screen.dart';
 import 'product_selection_page.dart';
 
 class LoginPage extends StatelessWidget {
@@ -31,7 +32,7 @@ class LoginPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => ProductSelectionPage(),
+                    builder: (context) => SelectionScreen(),
                   ),
                 );
               },
